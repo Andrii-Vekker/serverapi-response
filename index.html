@@ -9,8 +9,17 @@
 </head>
 
 <body>
-   
+    <h3 class="totalPages">total Pages</h3>
+   <form class="form">
+    <div class="box">
+        <label for="input" class="label">Что ищем</label>
+        <input type="text" class="input" name="query" id="input" placeholder="что ищем" autocomplete="off">
+    </div>
+<button class="button" type="submit" style="position: fixed;">искать</button>
+   </form>
     <ul class="list"></ul>
-    <script src="./index.js"></script>
+    
+    <script src="./index.js" type="module"></script>
+    <script src="./indexWithPagination.js" type="module"></script>
 </body>
 </html>
